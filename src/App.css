@@ -1,0 +1,357 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f3f5ff;
+  color: #252b50;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 35px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 760px;
+  background: white;
+  padding: 40px;
+  border-radius: 24px;
+  box-shadow: 0 12px 40px rgba(50, 60, 120, 0.12);
+  text-align: center;
+}
+
+.marca {
+  margin-bottom: 25px;
+}
+
+.logo-vocacional {
+  display: block;
+  width: 100%;
+  max-width: 230px;
+  height: auto;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+h1 {
+  margin: 15px 0;
+  color: #343b80;
+  font-size: 36px;
+}
+
+h2 {
+  color: #343b80;
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #606783;
+}
+
+button {
+  border: none;
+  border-radius: 12px;
+  padding: 15px 25px;
+  background: #5558c9;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #393c9c;
+  transform: translateY(-2px);
+}
+
+.opciones {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 25px 0;
+  text-align: left;
+}
+
+.opciones button {
+  background: #f0f1ff;
+  color: #343b80;
+  border: 2px solid #e1e3ff;
+  text-align: left;
+  font-weight: normal;
+}
+
+.opciones button:hover {
+  background: #e1e4ff;
+  border-color: #5558c9;
+}
+
+.opciones button.seleccionada {
+  background: #dedfff;
+  border-color: #5558c9;
+  font-weight: bold;
+}
+
+.progreso {
+  height: 10px;
+  width: 100%;
+  background: #e7e8f5;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.progreso-barra {
+  height: 100%;
+  background: #5558c9;
+  transition: width 0.3s;
+}
+
+.pregunta {
+  margin: 25px 0;
+  font-size: 23px;
+  font-weight: bold;
+  color: #30365f;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.botones button {
+  flex: 1;
+}
+
+@media (max-width: 600px) {
+  .app {
+    padding: 15px;
+  }
+
+  .contenedor {
+    padding: 25px 18px;
+  }
+
+  h1 {
+    font-size: 29px;
+  }
+
+  .pregunta {
+    font-size: 20px;
+  }
+
+  .botones {
+    flex-direction: column;
+  }
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f3f5ff;
+  color: #252b50;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 35px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 760px;
+  background: white;
+  padding: 40px;
+  border-radius: 24px;
+  box-shadow: 0 12px 40px rgba(50, 60, 120, 0.12);
+  text-align: center;
+}
+
+.marca {
+  margin-bottom: 25px;
+}
+
+.logo-vocacional {
+  display: block;
+  width: 100%;
+  max-width: 230px;
+  height: auto;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+h1 {
+  margin: 15px 0;
+  color: #343b80;
+  font-size: 36px;
+}
+
+h2 {
+  color: #343b80;
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #606783;
+}
+
+button {
+  border: none;
+  border-radius: 12px;
+  padding: 15px 25px;
+  background: #5558c9;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #393c9c;
+  transform: translateY(-2px);
+}
+
+.opciones {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 25px 0;
+  text-align: left;
+}
+
+.opciones button {
+  background: #f0f1ff;
+  color: #343b80;
+  border: 2px solid #e1e3ff;
+  text-align: left;
+  font-weight: normal;
+}
+
+.opciones button:hover {
+  background: #e1e4ff;
+  border-color: #5558c9;
+}
+
+.opciones button.seleccionada {
+  background: #dedfff;
+  border-color: #5558c9;
+  font-weight: bold;
+}
+
+.progreso {
+  height: 10px;
+  width: 100%;
+  background: #e7e8f5;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.progreso-barra {
+  height: 100%;
+  background: #5558c9;
+  transition: width 0.3s;
+}
+
+.pregunta {
+  margin: 25px 0;
+  font-size: 23px;
+  font-weight: bold;
+  color: #30365f;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.botones button {
+  flex: 1;
+}
+
+@media (max-width: 600px) {
+  .app {
+    padding: 15px;
+  }
+
+  .contenedor {
+    padding: 25px 18px;
+  }
+
+  h1 {
+    font-size: 29px;
+  }
+
+  .pregunta {
+    font-size: 20px;
+  }
+
+  .botones {
+    flex-direction: column;
+  }
+}
+
+
+/* ESTILO GENERAL DE MI RUTA VOCACIONAL */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #f5f0ff, #eef2ff);
+  color: #292344;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+}
