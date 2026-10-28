@@ -154,7 +154,7 @@ function App() {
     setInterpretacionIA('')
 
     try {
-      const respuesta = await fetch('http://localhost:3001/api/interpretar', {
+      const respuesta = await fetch('https://mi-ruta-vocacional.onrender.com/api/interpretar', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
